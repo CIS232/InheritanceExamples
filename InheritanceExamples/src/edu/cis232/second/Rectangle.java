@@ -24,4 +24,8 @@ public class Rectangle {
 	public double getArea(){
 		return length * height;
 	}
+	
+	public String toString(){
+		return String.format("%.2f area and %.2f perimeter", getArea(), getPerimeter());
+	}
 }
