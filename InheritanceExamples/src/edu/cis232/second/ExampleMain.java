@@ -8,6 +8,7 @@ public class ExampleMain {
 		System.out.println(r);
 		
 		Square s = new Square(5);
+		s.setLength(10);
 		System.out.println("Square stats:");
 		System.out.println(s);
 	}

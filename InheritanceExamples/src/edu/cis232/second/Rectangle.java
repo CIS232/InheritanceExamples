@@ -1,8 +1,8 @@
 package edu.cis232.second;
 
 public class Rectangle {
-	private double height;
-	private double length;
+    protected double height;
+	protected double length;
 	
 	public Rectangle(double height, double length){
 		this.height = height;

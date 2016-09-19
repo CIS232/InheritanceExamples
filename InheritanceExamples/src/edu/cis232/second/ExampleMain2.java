@@ -9,6 +9,8 @@ public class ExampleMain2 {
 		//Any subclass can act as any of its super classes
 		Rectangle rect = new Square(6);
 		System.out.println(rect);
+		//Can't call setLength because it doesn't exist in the variable's type class (Rectangle)
+		//rect.setLength(10);
 		
 		ArrayList<Rectangle> rects = new ArrayList<>();
 		rects.add(rect);
@@ -19,8 +21,6 @@ public class ExampleMain2 {
 		for(Rectangle r : rects){
 			System.out.println(r);
 		}
-		
-		
 	}
 
 }

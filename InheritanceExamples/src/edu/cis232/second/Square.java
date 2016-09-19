@@ -5,6 +5,11 @@ public class Square extends Rectangle {
 		super(length, length);
 	}
 	
+	public void setLength(double length){
+		this.length = length;
+		this.height = length;
+	}
+	
 	public String toString(){
 		return String.format("Square %.2f area and %.2f perimeter", getArea(), getPerimeter());
 	}
