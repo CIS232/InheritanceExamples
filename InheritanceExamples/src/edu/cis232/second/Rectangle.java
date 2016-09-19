@@ -26,6 +26,6 @@ public class Rectangle {
 	}
 	
 	public String toString(){
-		return String.format("%.2f area and %.2f perimeter", getArea(), getPerimeter());
+		return String.format("Rectangle %.2f area and %.2f perimeter", getArea(), getPerimeter());
 	}
 }
